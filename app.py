@@ -1,8 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
-#wow
-#test
-#oh
+#testing
 @app.route("/")
 def index():
     return "<p>Hello, from GKE!</p>"
